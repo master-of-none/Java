@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comparing two numbers</title>
+</title>
+</head>
+<body>
+	<h1>Equality of two forms using html form</h1>
+	<form name="myForm">
+		First Number:<input type="text" name="fnum"><br>
+		Second Number:<input type="text" name="snum"><br><br>
+		     <input type="button" value="Calculate" onClick='myfun();'>  
+	</form>
+	<script type="text/javascript">
+		function myfun() {
+			var x=document.myForm.fnum.value;
+			var y=document.myForm.snum.value;
+			document.writeln("Entered First num:"+x);
+			document.writeln("Entered Second num is:"+y);
+			if(x==y)
+				document.writeln("Equal: "+(x==y));
+			else
+				document.writeln("Equal: "+(x==y));
+
+		}
+	</script>
+</body>
+</html>

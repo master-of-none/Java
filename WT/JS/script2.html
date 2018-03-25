@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finding the number of Occurences</title>
+</head>
+<body>
+	<h1> No of occurences:</h1>
+	<script type="text/javascript">
+		var numarr = [1,2,3,4,5,2]
+        var arrlen=numarr.length;
+        var i,count;
+        count=0;
+        var key=window.prompt("Enter the number to find no of occurences:")
+       
+        for(i=0;i<arrlen;i++)
+        {
+        	if(numarr[i]==key)
+        		count++;
+        }
+        document.writeln(key+" appears "+count+" times");
+
+	</script>
+</body>
+</html>

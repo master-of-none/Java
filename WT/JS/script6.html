@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci</title>
+</head>
+<body>
+	<h1>Fibonacci value of a given number</h1>
+	<script>
+	  var n;
+	  n=window.prompt("Enter the Number");
+	  document.writeln("Fibonacci value of an given number:"+fib(n));
+    function fib(num) {
+    	 if(num<=1)
+    	 	return num;
+    	 return fib(num-1) + fib(num-2);
+    }
+</script>
+
+
+</body>
+</html>
